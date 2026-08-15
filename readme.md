@@ -6,7 +6,7 @@ Cyber threats such as malware, phishing, and denial-of-service (DOS) attacks are
 This project aims to proactively detect and mitigate cyber threats by leveraging Deep Learning. Using the BETH dataset, which simulates real-world logs, this repository contains a PyTorch-based neural network designed to identify patterns in system logs and classify events as either malicious or benign.
 
 ## Dataset
-The project utilizes the **BETH dataset**, which contains preprocessed system logs. The target variable is `sus_label`, which indicates whether an event is malicious (1) or benign (0).
+The project utilizes the [**BETH dataset**](https://www.kaggle.com/datasets/katehighnam/beth-dataset), which contains preprocessed system logs. The target variable is `sus_label`, which indicates whether an event is malicious (1) or benign (0).
 
 **Features:**
 * **processId:** The unique identifier for the process that generated the event
