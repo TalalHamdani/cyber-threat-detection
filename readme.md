@@ -57,7 +57,7 @@ The model is a Feedforward Neural Network built using PyTorch's `nn.Sequential` 
 
 Run the main training script:
 ```bash
-python main.py
+python src/main.py
 ```
 
 ### Pipeline Overview
@@ -73,7 +73,7 @@ The model achieves a target validation accuracy of at least **0.60 (60%)**.
 ```text
 Final Results:
 Training Accuracy:   99.96%
-Validation Accuracy: 100% (Saved val_accuracy: XX)
+Validation Accuracy: 100%
 Testing Accuracy:    94.48%
 ```
 

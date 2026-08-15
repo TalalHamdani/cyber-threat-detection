@@ -60,7 +60,7 @@ model = nn.Sequential(
     nn.Sigmoid()
 )
 
-# Loss funtion and optimizer
+# Loss function and optimizer
 criterion = nn.BCELoss()
 optimizer = optim.SGD(model.parameters(), lr = 1e-3, weight_decay = 1e-4)
 
